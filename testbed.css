@@ -130,3 +130,17 @@ li {
 #cube.show-left   { transform: translateZ( -100px ) rotateY(   90deg ); }
 #cube.show-top    { transform: translateZ( -100px ) rotateX(  -90deg ); }
 #cube.show-bottom { transform: translateZ( -100px ) rotateX(   90deg ); }
+
+.sides {
+    width: 196px !important;
+    height: 30px !important;
+}
+
+.change {
+    height: 196px !important;
+    width: 30px !important;
+}
+
+.link:hover {
+    color: red;
+}

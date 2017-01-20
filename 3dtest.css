@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    perspective: 1300px;
+    perspective-origin: 0 1000px;
+}
+
+#cube {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #f05558;
+    transform-style: preserve-3d;
+    z-index:2;
+    /*transform: translate3d(0,0,100px);*/
+
+}
+
+#cubeToBar  {
+    position: absolute;
+    left: 50px;
+    height: 50px;
+    width: 20px;
+    transform-style: preserve-3d;
+    background-color: #af3333;
+    transform: rotateY(  90deg ) translate3d( -10px,0,-10px );
+    z-index:2;
+}
+
+#topbar {
+    width: 90%;
+    float: left;
+    transform-style: preserve-3d;
+    height: 50px;
+    background-color: #f05558;
+    transform: translateZ(20px);
+
+}
+
+#topToRightbar {
+    position: absolute;
+    height: 50px;
+    transform-style: preserve-3d;
+    background-color: #af3333;
+    width: 20px;
+    left: 90%;
+    transform: rotateY(  90deg ) translate3d( -30px,0,-10px );
+
+}
+
+#rightbar {
+    float: left;
+    width: 10%;
+    transform-style: preserve-3d;
+    height: 50px;
+    background-color: #f05558;
+    transform: translateZ(40px);
+
+}
